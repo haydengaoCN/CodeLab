@@ -1,0 +1,113 @@
+
+main:	file format Mach-O 64-bit x86-64
+
+
+Disassembly of section __TEXT,__text:
+
+0000000100000de0 _main:
+100000de0: 55                          	pushq	%rbp
+100000de1: 48 89 e5                    	movq	%rsp, %rbp
+100000de4: 41 56                       	pushq	%r14
+100000de6: 53                          	pushq	%rbx
+100000de7: 48 83 ec 10                 	subq	$16, %rsp
+100000deb: 31 ff                       	xorl	%edi, %edi
+100000ded: e8 fc 00 00 00              	callq	252 <dyld_stub_binder+0x100000eee>
+100000df2: 89 c7                       	movl	%eax, %edi
+100000df4: e8 ef 00 00 00              	callq	239 <dyld_stub_binder+0x100000ee8>
+100000df9: e8 e4 00 00 00              	callq	228 <dyld_stub_binder+0x100000ee2>
+100000dfe: 8d 88 12 ff ff ff           	leal	-238(%rax), %ecx
+100000e04: 83 f8 03                    	cmpl	$3, %eax
+100000e07: be 02 01 00 00              	movl	$258, %esi
+100000e0c: 0f 45 f1                    	cmovnel	%ecx, %esi
+100000e0f: 48 8b 3d ea 01 00 00        	movq	490(%rip), %rdi
+100000e16: e8 af 00 00 00              	callq	175 <dyld_stub_binder+0x100000eca>
+100000e1b: 48 89 c3                    	movq	%rax, %rbx
+100000e1e: 48 8b 00                    	movq	(%rax), %rax
+100000e21: 48 8b 70 e8                 	movq	-24(%rax), %rsi
+100000e25: 48 01 de                    	addq	%rbx, %rsi
+100000e28: 4c 8d 75 e8                 	leaq	-24(%rbp), %r14
+100000e2c: 4c 89 f7                    	movq	%r14, %rdi
+100000e2f: e8 84 00 00 00              	callq	132 <dyld_stub_binder+0x100000eb8>
+100000e34: 48 8b 35 cd 01 00 00        	movq	461(%rip), %rsi
+100000e3b: 4c 89 f7                    	movq	%r14, %rdi
+100000e3e: e8 6f 00 00 00              	callq	111 <dyld_stub_binder+0x100000eb2>
+100000e43: 48 8b 08                    	movq	(%rax), %rcx
+100000e46: 48 89 c7                    	movq	%rax, %rdi
+100000e49: be 0a 00 00 00              	movl	$10, %esi
+100000e4e: ff 51 38                    	callq	*56(%rcx)
+100000e51: 41 89 c6                    	movl	%eax, %r14d
+100000e54: 48 8d 7d e8                 	leaq	-24(%rbp), %rdi
+100000e58: e8 73 00 00 00              	callq	115 <dyld_stub_binder+0x100000ed0>
+100000e5d: 41 0f be f6                 	movsbl	%r14b, %esi
+100000e61: 48 89 df                    	movq	%rbx, %rdi
+100000e64: e8 55 00 00 00              	callq	85 <dyld_stub_binder+0x100000ebe>
+100000e69: 48 89 df                    	movq	%rbx, %rdi
+100000e6c: e8 53 00 00 00              	callq	83 <dyld_stub_binder+0x100000ec4>
+100000e71: 31 c0                       	xorl	%eax, %eax
+100000e73: 48 83 c4 10                 	addq	$16, %rsp
+100000e77: 5b                          	popq	%rbx
+100000e78: 41 5e                       	popq	%r14
+100000e7a: 5d                          	popq	%rbp
+100000e7b: c3                          	retq
+100000e7c: 48 89 c3                    	movq	%rax, %rbx
+100000e7f: 48 8d 7d e8                 	leaq	-24(%rbp), %rdi
+100000e83: e8 48 00 00 00              	callq	72 <dyld_stub_binder+0x100000ed0>
+100000e88: 48 89 df                    	movq	%rbx, %rdi
+100000e8b: e8 1c 00 00 00              	callq	28 <dyld_stub_binder+0x100000eac>
+100000e90: 0f 0b                       	ud2
+100000e92: 48 89 c7                    	movq	%rax, %rdi
+100000e95: e8 06 00 00 00              	callq	6 <___clang_call_terminate>
+100000e9a: 66 0f 1f 44 00 00           	nopw	(%rax,%rax)
+
+0000000100000ea0 ___clang_call_terminate:
+100000ea0: 50                          	pushq	%rax
+100000ea1: e8 36 00 00 00              	callq	54 <dyld_stub_binder+0x100000edc>
+100000ea6: e8 2b 00 00 00              	callq	43 <dyld_stub_binder+0x100000ed6>
+
+Disassembly of section __TEXT,__stubs:
+
+0000000100000eac __stubs:
+100000eac: ff 25 4e 11 00 00           	jmpq	*4430(%rip)
+100000eb2: ff 25 50 11 00 00           	jmpq	*4432(%rip)
+100000eb8: ff 25 52 11 00 00           	jmpq	*4434(%rip)
+100000ebe: ff 25 54 11 00 00           	jmpq	*4436(%rip)
+100000ec4: ff 25 56 11 00 00           	jmpq	*4438(%rip)
+100000eca: ff 25 58 11 00 00           	jmpq	*4440(%rip)
+100000ed0: ff 25 5a 11 00 00           	jmpq	*4442(%rip)
+100000ed6: ff 25 5c 11 00 00           	jmpq	*4444(%rip)
+100000edc: ff 25 5e 11 00 00           	jmpq	*4446(%rip)
+100000ee2: ff 25 60 11 00 00           	jmpq	*4448(%rip)
+100000ee8: ff 25 62 11 00 00           	jmpq	*4450(%rip)
+100000eee: ff 25 64 11 00 00           	jmpq	*4452(%rip)
+
+Disassembly of section __TEXT,__stub_helper:
+
+0000000100000ef4 __stub_helper:
+100000ef4: 4c 8d 1d 65 11 00 00        	leaq	4453(%rip), %r11
+100000efb: 41 53                       	pushq	%r11
+100000efd: ff 25 15 01 00 00           	jmpq	*277(%rip)
+100000f03: 90                          	nop
+100000f04: 68 16 00 00 00              	pushq	$22
+100000f09: e9 e6 ff ff ff              	jmp	-26 <__stub_helper>
+100000f0e: 68 43 00 00 00              	pushq	$67
+100000f13: e9 dc ff ff ff              	jmp	-36 <__stub_helper>
+100000f18: 68 67 00 00 00              	pushq	$103
+100000f1d: e9 d2 ff ff ff              	jmp	-46 <__stub_helper>
+100000f22: 68 a4 00 00 00              	pushq	$164
+100000f27: e9 c8 ff ff ff              	jmp	-56 <__stub_helper>
+100000f2c: 68 e3 00 00 00              	pushq	$227
+100000f31: e9 be ff ff ff              	jmp	-66 <__stub_helper>
+100000f36: 68 1e 01 00 00              	pushq	$286
+100000f3b: e9 b4 ff ff ff              	jmp	-76 <__stub_helper>
+100000f40: 68 3a 01 00 00              	pushq	$314
+100000f45: e9 aa ff ff ff              	jmp	-86 <__stub_helper>
+100000f4a: 68 51 01 00 00              	pushq	$337
+100000f4f: e9 a0 ff ff ff              	jmp	-96 <__stub_helper>
+100000f54: 68 00 00 00 00              	pushq	$0
+100000f59: e9 96 ff ff ff              	jmp	-106 <__stub_helper>
+100000f5e: 68 6a 01 00 00              	pushq	$362
+100000f63: e9 8c ff ff ff              	jmp	-116 <__stub_helper>
+100000f68: 68 76 01 00 00              	pushq	$374
+100000f6d: e9 82 ff ff ff              	jmp	-126 <__stub_helper>
+100000f72: 68 83 01 00 00              	pushq	$387
+100000f77: e9 78 ff ff ff              	jmp	-136 <__stub_helper>

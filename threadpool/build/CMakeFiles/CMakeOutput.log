@@ -1,0 +1,467 @@
+The system is: Linux - 3.10.107-1-tlinux2_kvm_guest-0049 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/lib64/ccache/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/data/home/haydengao/code_lab/threadpool/build/CMakeFiles/3.17.5/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/lib64/ccache/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/data/home/haydengao/code_lab/threadpool/build/CMakeFiles/3.17.5/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4cf40/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4cf40.dir/build.make CMakeFiles/cmTC_4cf40.dir/build
+gmake[1]: 进入目录“/data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4cf40.dir/testCCompiler.c.o
+/usr/lib64/ccache/cc    -o CMakeFiles/cmTC_4cf40.dir/testCCompiler.c.o   -c /data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4cf40
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_4cf40.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc      -rdynamic CMakeFiles/cmTC_4cf40.dir/testCCompiler.c.o  -o cmTC_4cf40 
+gmake[1]: 离开目录“/data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c2cf7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2cf7.dir/build.make CMakeFiles/cmTC_c2cf7.dir/build
+gmake[1]: Entering directory `/data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2cf7.dir/CMakeCCompilerABI.c.o
+/usr/lib64/ccache/cc   -v -o CMakeFiles/cmTC_c2cf7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake3/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_d9235.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -v /usr/share/cmake3/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d9235.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccamQHjl.s
+GNU C (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-4) (x86_64-redhat-linux)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-4), GMP version 5.1.1, MPFR version 3.1.1, MPC version 1.0.1
+warning: GMP header version 5.1.1 differs from library version 6.0.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-4) (x86_64-redhat-linux)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-4), GMP version 5.1.1, MPFR version 3.1.1, MPC version 1.0.1
+warning: GMP header version 5.1.1 differs from library version 6.0.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 9056de5093e628ed35cebee7490512f3
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_d9235.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_d9235.dir/CMakeCCompilerABI.c.o /tmp/ccamQHjl.s
+GNU assembler version 2.31.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.31.1
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_d9235.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_c2cf7
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_c2cf7.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc     -v -rdynamic CMakeFiles/cmTC_c2cf7.dir/CMakeCCompilerABI.c.o  -o cmTC_c2cf7 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gtest-1.8.1/lib/:/opt/gperftools/lib/:/opt/grpc/lib/:/opt/gtest-1.8.1/lib/:/opt/gperftools/lib/:/opt/grpc/lib/:/opt/gtest-1.8.1/lib/:/opt/gperftools/lib/:/opt/grpc/lib/:./:./:./:./:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c2cf7' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c2cf7 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/gtest-1.8.1/lib -L/opt/gperftools/lib -L/opt/grpc/lib -L/opt/gtest-1.8.1/lib -L/opt/gperftools/lib -L/opt/grpc/lib -L/opt/gtest-1.8.1/lib -L/opt/gperftools/lib -L/opt/grpc/lib -L. -L. -L. -L. -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_c2cf7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include;/usr/local/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_c2cf7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2cf7.dir/build.make CMakeFiles/cmTC_c2cf7.dir/build]
+  ignore line: [gmake[1]: Entering directory `/data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_c2cf7.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/lib64/ccache/cc   -v -o CMakeFiles/cmTC_c2cf7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake3/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c c++ objc obj-c++ java fortran ada go lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_d9235.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -v /usr/share/cmake3/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d9235.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccamQHjl.s]
+  ignore line: [GNU C (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-4) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-4)  GMP version 5.1.1  MPFR version 3.1.1  MPC version 1.0.1]
+  ignore line: [warning: GMP header version 5.1.1 differs from library version 6.0.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-4) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-4)  GMP version 5.1.1  MPFR version 3.1.1  MPC version 1.0.1]
+  ignore line: [warning: GMP header version 5.1.1 differs from library version 6.0.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 9056de5093e628ed35cebee7490512f3]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_d9235.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d9235.dir/CMakeCCompilerABI.c.o /tmp/ccamQHjl.s]
+  ignore line: [GNU assembler version 2.31.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.31.1]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_d9235.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_c2cf7]
+  ignore line: [/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_c2cf7.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib64/ccache/cc     -v -rdynamic CMakeFiles/cmTC_c2cf7.dir/CMakeCCompilerABI.c.o  -o cmTC_c2cf7 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c c++ objc obj-c++ java fortran ada go lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gtest-1.8.1/lib/:/opt/gperftools/lib/:/opt/grpc/lib/:/opt/gtest-1.8.1/lib/:/opt/gperftools/lib/:/opt/grpc/lib/:/opt/gtest-1.8.1/lib/:/opt/gperftools/lib/:/opt/grpc/lib/:./:./:./:./:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c2cf7' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c2cf7 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/gtest-1.8.1/lib -L/opt/gperftools/lib -L/opt/grpc/lib -L/opt/gtest-1.8.1/lib -L/opt/gperftools/lib -L/opt/grpc/lib -L/opt/gtest-1.8.1/lib -L/opt/gperftools/lib -L/opt/grpc/lib -L. -L. -L. -L. -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_c2cf7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c2cf7] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/gtest-1.8.1/lib] ==> dir [/opt/gtest-1.8.1/lib]
+    arg [-L/opt/gperftools/lib] ==> dir [/opt/gperftools/lib]
+    arg [-L/opt/grpc/lib] ==> dir [/opt/grpc/lib]
+    arg [-L/opt/gtest-1.8.1/lib] ==> dir [/opt/gtest-1.8.1/lib]
+    arg [-L/opt/gperftools/lib] ==> dir [/opt/gperftools/lib]
+    arg [-L/opt/grpc/lib] ==> dir [/opt/grpc/lib]
+    arg [-L/opt/gtest-1.8.1/lib] ==> dir [/opt/gtest-1.8.1/lib]
+    arg [-L/opt/gperftools/lib] ==> dir [/opt/gperftools/lib]
+    arg [-L/opt/grpc/lib] ==> dir [/opt/grpc/lib]
+    arg [-L.] ==> ignore
+    arg [-L.] ==> ignore
+    arg [-L.] ==> ignore
+    arg [-L.] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTC_c2cf7.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/gtest-1.8.1/lib] ==> [/opt/gtest-1.8.1/lib]
+  collapse library dir [/opt/gperftools/lib] ==> [/opt/gperftools/lib]
+  collapse library dir [/opt/grpc/lib] ==> [/opt/grpc/lib]
+  collapse library dir [/opt/gtest-1.8.1/lib] ==> [/opt/gtest-1.8.1/lib]
+  collapse library dir [/opt/gperftools/lib] ==> [/opt/gperftools/lib]
+  collapse library dir [/opt/grpc/lib] ==> [/opt/grpc/lib]
+  collapse library dir [/opt/gtest-1.8.1/lib] ==> [/opt/gtest-1.8.1/lib]
+  collapse library dir [/opt/gperftools/lib] ==> [/opt/gperftools/lib]
+  collapse library dir [/opt/grpc/lib] ==> [/opt/grpc/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/opt/gtest-1.8.1/lib;/opt/gperftools/lib;/opt/grpc/lib;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fb711/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fb711.dir/build.make CMakeFiles/cmTC_fb711.dir/build
+gmake[1]: 进入目录“/data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_fb711.dir/testCXXCompiler.cxx.o
+/usr/lib64/ccache/c++     -o CMakeFiles/cmTC_fb711.dir/testCXXCompiler.cxx.o -c /data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_fb711
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_fb711.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++       -rdynamic CMakeFiles/cmTC_fb711.dir/testCXXCompiler.cxx.o  -o cmTC_fb711 
+gmake[1]: 离开目录“/data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5599e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5599e.dir/build.make CMakeFiles/cmTC_5599e.dir/build
+gmake[1]: Entering directory `/data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5599e.dir/CMakeCXXCompilerABI.cpp.o
+/usr/lib64/ccache/c++    -v -o CMakeFiles/cmTC_5599e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/data/home/haydengao/gcc-8.2.0/bin/c++
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-8.2.0/configure --prefix=/data/gcc-8.2.0 --enable-languages=c,c++ --enable-multilib --enable-lto --enable-plugin --enable-gold --enable-plugins --enable-threads=posix --enable-checking=release --enable-__cxa_atexit --enable-linker-build-id --enable-__cxa_atexit --with-tune=generic --with-default-libstdcxx-abi=gcc4-compatible
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_6288c.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1plus -quiet -v -iprefix /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/ -D_GNU_SOURCE /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_6288c.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccCrRER2.s
+GNU C++14 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0"
+ignoring duplicate directory "/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/x86_64-pc-linux-gnu"
+ignoring duplicate directory "/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/backward"
+ignoring duplicate directory "/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.2.0/include"
+ignoring duplicate directory "/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed"
+ignoring nonexistent directory "/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0
+ /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/x86_64-pc-linux-gnu
+ /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/backward
+ /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/include
+ /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed
+ /usr/local/include
+ /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../include
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e055c18b842f641267f08153fc3c5018
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_6288c.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_6288c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCrRER2.s
+GNU assembler version 2.31.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.31.1
+COMPILER_PATH=/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/bin/
+LIBRARY_PATH=/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_6288c.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_5599e
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_5599e.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++      -v -rdynamic CMakeFiles/cmTC_5599e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5599e 
+Using built-in specs.
+COLLECT_GCC=/data/home/haydengao/gcc-8.2.0/bin/c++
+COLLECT_LTO_WRAPPER=/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-8.2.0/configure --prefix=/data/gcc-8.2.0 --enable-languages=c,c++ --enable-multilib --enable-lto --enable-plugin --enable-gold --enable-plugins --enable-threads=posix --enable-checking=release --enable-__cxa_atexit --enable-linker-build-id --enable-__cxa_atexit --with-tune=generic --with-default-libstdcxx-abi=gcc4-compatible
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COMPILER_PATH=/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/bin/
+LIBRARY_PATH=/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gtest-1.8.1/lib/:/opt/gperftools/lib/:/opt/grpc/lib/:/opt/gtest-1.8.1/lib/:/opt/gperftools/lib/:/opt/grpc/lib/:/opt/gtest-1.8.1/lib/:/opt/gperftools/lib/:/opt/grpc/lib/:./:./:./:./:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5599e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd31AQM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5599e /lib/../lib64/crt1.o /lib/../lib64/crti.o /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc -L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/gtest-1.8.1/lib -L/opt/gperftools/lib -L/opt/grpc/lib -L/opt/gtest-1.8.1/lib -L/opt/gperftools/lib -L/opt/grpc/lib -L/opt/gtest-1.8.1/lib -L/opt/gperftools/lib -L/opt/grpc/lib -L. -L. -L. -L. -L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib -L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_5599e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5599e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0]
+    add: [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/x86_64-pc-linux-gnu]
+    add: [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/backward]
+    add: [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/include]
+    add: [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0] ==> [/data/home/haydengao/gcc-8.2.0/include/c++/8.2.0]
+  collapse include dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/x86_64-pc-linux-gnu] ==> [/data/home/haydengao/gcc-8.2.0/include/c++/8.2.0/x86_64-pc-linux-gnu]
+  collapse include dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/backward] ==> [/data/home/haydengao/gcc-8.2.0/include/c++/8.2.0/backward]
+  collapse include dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/include] ==> [/data/home/haydengao/gcc-8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include]
+  collapse include dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed] ==> [/data/home/haydengao/gcc-8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../include] ==> [/data/home/haydengao/gcc-8.2.0/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/data/home/haydengao/gcc-8.2.0/include/c++/8.2.0;/data/home/haydengao/gcc-8.2.0/include/c++/8.2.0/x86_64-pc-linux-gnu;/data/home/haydengao/gcc-8.2.0/include/c++/8.2.0/backward;/data/home/haydengao/gcc-8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include;/data/home/haydengao/gcc-8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed;/usr/local/include;/data/home/haydengao/gcc-8.2.0/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_5599e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5599e.dir/build.make CMakeFiles/cmTC_5599e.dir/build]
+  ignore line: [gmake[1]: Entering directory `/data/home/haydengao/code_lab/threadpool/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5599e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/lib64/ccache/c++    -v -o CMakeFiles/cmTC_5599e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/data/home/haydengao/gcc-8.2.0/bin/c++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-8.2.0/configure --prefix=/data/gcc-8.2.0 --enable-languages=c c++ --enable-multilib --enable-lto --enable-plugin --enable-gold --enable-plugins --enable-threads=posix --enable-checking=release --enable-__cxa_atexit --enable-linker-build-id --enable-__cxa_atexit --with-tune=generic --with-default-libstdcxx-abi=gcc4-compatible]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_6288c.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1plus -quiet -v -iprefix /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/ -D_GNU_SOURCE /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_6288c.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccCrRER2.s]
+  ignore line: [GNU C++14 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.2.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0"]
+  ignore line: [ignoring duplicate directory "/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/x86_64-pc-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.2.0/include"]
+  ignore line: [ignoring duplicate directory "/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0]
+  ignore line: [ /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/x86_64-pc-linux-gnu]
+  ignore line: [ /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/backward]
+  ignore line: [ /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/include]
+  ignore line: [ /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/../../include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.2.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e055c18b842f641267f08153fc3c5018]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_6288c.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_6288c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCrRER2.s]
+  ignore line: [GNU assembler version 2.31.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.31.1]
+  ignore line: [COMPILER_PATH=/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_6288c.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_5599e]
+  ignore line: [/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_5599e.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib64/ccache/c++      -v -rdynamic CMakeFiles/cmTC_5599e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5599e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/data/home/haydengao/gcc-8.2.0/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-8.2.0/configure --prefix=/data/gcc-8.2.0 --enable-languages=c c++ --enable-multilib --enable-lto --enable-plugin --enable-gold --enable-plugins --enable-threads=posix --enable-checking=release --enable-__cxa_atexit --enable-linker-build-id --enable-__cxa_atexit --with-tune=generic --with-default-libstdcxx-abi=gcc4-compatible]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gtest-1.8.1/lib/:/opt/gperftools/lib/:/opt/grpc/lib/:/opt/gtest-1.8.1/lib/:/opt/gperftools/lib/:/opt/grpc/lib/:/opt/gtest-1.8.1/lib/:/opt/gperftools/lib/:/opt/grpc/lib/:./:./:./:./:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib/:/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5599e' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd31AQM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5599e /lib/../lib64/crt1.o /lib/../lib64/crti.o /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc -L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/gtest-1.8.1/lib -L/opt/gperftools/lib -L/opt/grpc/lib -L/opt/gtest-1.8.1/lib -L/opt/gperftools/lib -L/opt/grpc/lib -L/opt/gtest-1.8.1/lib -L/opt/gperftools/lib -L/opt/grpc/lib -L. -L. -L. -L. -L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib -L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_5599e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/data/home/haydengao/gcc-8.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccd31AQM.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5599e] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o] ==> ignore
+    arg [-L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+    arg [-L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc] ==> dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc]
+    arg [-L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/gtest-1.8.1/lib] ==> dir [/opt/gtest-1.8.1/lib]
+    arg [-L/opt/gperftools/lib] ==> dir [/opt/gperftools/lib]
+    arg [-L/opt/grpc/lib] ==> dir [/opt/grpc/lib]
+    arg [-L/opt/gtest-1.8.1/lib] ==> dir [/opt/gtest-1.8.1/lib]
+    arg [-L/opt/gperftools/lib] ==> dir [/opt/gperftools/lib]
+    arg [-L/opt/grpc/lib] ==> dir [/opt/grpc/lib]
+    arg [-L/opt/gtest-1.8.1/lib] ==> dir [/opt/gtest-1.8.1/lib]
+    arg [-L/opt/gperftools/lib] ==> dir [/opt/gperftools/lib]
+    arg [-L/opt/grpc/lib] ==> dir [/opt/grpc/lib]
+    arg [-L.] ==> ignore
+    arg [-L.] ==> ignore
+    arg [-L.] ==> ignore
+    arg [-L.] ==> ignore
+    arg [-L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib]
+    arg [-L/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..]
+    arg [CMakeFiles/cmTC_5599e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> [/data/home/haydengao/gcc-8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+  collapse library dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc] ==> [/data/home/haydengao/gcc-8.2.0/lib/gcc]
+  collapse library dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> [/data/home/haydengao/gcc-8.2.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/gtest-1.8.1/lib] ==> [/opt/gtest-1.8.1/lib]
+  collapse library dir [/opt/gperftools/lib] ==> [/opt/gperftools/lib]
+  collapse library dir [/opt/grpc/lib] ==> [/opt/grpc/lib]
+  collapse library dir [/opt/gtest-1.8.1/lib] ==> [/opt/gtest-1.8.1/lib]
+  collapse library dir [/opt/gperftools/lib] ==> [/opt/gperftools/lib]
+  collapse library dir [/opt/grpc/lib] ==> [/opt/grpc/lib]
+  collapse library dir [/opt/gtest-1.8.1/lib] ==> [/opt/gtest-1.8.1/lib]
+  collapse library dir [/opt/gperftools/lib] ==> [/opt/gperftools/lib]
+  collapse library dir [/opt/grpc/lib] ==> [/opt/grpc/lib]
+  collapse library dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib] ==> [/data/home/haydengao/gcc-8.2.0/x86_64-pc-linux-gnu/lib]
+  collapse library dir [/data/home/haydengao/gcc-8.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> [/data/home/haydengao/gcc-8.2.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/data/home/haydengao/gcc-8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0;/data/home/haydengao/gcc-8.2.0/lib/gcc;/data/home/haydengao/gcc-8.2.0/lib64;/lib64;/usr/lib64;/opt/gtest-1.8.1/lib;/opt/gperftools/lib;/opt/grpc/lib;/data/home/haydengao/gcc-8.2.0/x86_64-pc-linux-gnu/lib;/data/home/haydengao/gcc-8.2.0/lib]
+  implicit fwks: []
+
+

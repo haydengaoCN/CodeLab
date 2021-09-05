@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/data/home/haydengao/code_lab/threadpool/tests/main.cc
+threadpool/src/thread_pool.h
+/data/home/haydengao/code_lab/threadpool/tests/threadpool/src/thread_pool.h
+
