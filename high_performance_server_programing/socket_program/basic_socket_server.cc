@@ -40,14 +40,14 @@ int RecvOnce(int argc, char* argv[]) {
   // PF_INET -> ipv4; PF_UNIX -> unix本地域协议族
   // SOCK_STREAM -> 流服务; SOCK_UGRAM -> 数据报
   // 0 -> 由前两个参数确定，设置为0表示使用默认协议
-  int sockfd = socket(PF_INET, SOCK_STREAM, 0);
-  if (sockfd <= 0) {
+  int listen_fd = socket(PF_INET, SOCK_STREAM, 0);
+  if (listen_fd <= 0) {
     printf("create socket error:%d\n", errno);
     return 1;
   }
 
   // socket命名
-  if (bind(sockfd, (struct sockaddr*)(&address), sizeof(address)) == -1) {
+  if (bind(listen_fd, (struct sockaddr*)(&address), sizeof(address)) == -1) {
     printf("bind error:%d\n", errno);
     return 1;
   }
@@ -55,7 +55,7 @@ int RecvOnce(int argc, char* argv[]) {
   // socket监听
   // backlog 参数提示内核监听队列的最大长度，超过这个长度将不再受理新的连接，客户端收到ECONNREFUSE
   // 典型值为5
-  if (listen(sockfd, 5) == -1) {
+  if (listen(listen_fd, 5) == -1) {
     printf("listen error:%d", errno);
     return 1;
   }
@@ -65,7 +65,7 @@ int RecvOnce(int argc, char* argv[]) {
     struct sockaddr_in client;
     socklen_t client_addrlength = sizeof(client);
     // 阻塞直到收到连接
-    int connfd = accept(sockfd, (struct sockaddr*)(&client), &client_addrlength);
+    int connfd = accept(listen_fd, (struct sockaddr*)(&client), &client_addrlength);
     if (connfd < 0) {
       printf("accept error:%d\n", errno);
     } else {
@@ -78,7 +78,7 @@ int RecvOnce(int argc, char* argv[]) {
     }
   } while(false);
 
-  close(sockfd);
+  close(listen_fd);
   return 0;
 }
    
