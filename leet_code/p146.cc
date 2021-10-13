@@ -49,6 +49,7 @@ private:
   }
   
   void del() {
+    dict_.erase(data_.back().key);
     data_.pop_back();
   }
 

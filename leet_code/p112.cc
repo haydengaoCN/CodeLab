@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 
 struct TreeNode {
   int val;
@@ -12,8 +11,11 @@ struct TreeNode {
 
 class Solution {
  public:
-  int maxDepth(TreeNode* root) {
-    if (!root) return 0;
-    return 1 + std::max(maxDepth(root->left), maxDepth(root->right));
+  bool hasPathSum(TreeNode* root, int targetSum) {
+    if (!root) return false;
+    if (!root->left && !root->right) {
+      return targetSum == root->val;
+    }
+    return hasPathSum(root->left, targetSum - root->val) || hasPathSum(root->right, targetSum - root->val);
   }
-}
+};
