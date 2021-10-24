@@ -9,7 +9,7 @@
 #include <atomic>
 #include <math.h>
 
-#if 0
+#if 1
 /*==========================================================Item7 () vs. {}==========================================================*/
 /*
 item7: distinguish between () and {} when creating objects.
