@@ -15,7 +15,7 @@ void qs(std::vector<int>& nums, int left, int right) {
   int pivot = nums[left];
   int l = left, r = right;
   while (l < r) {
-    while (l < r && nums[r] > pivot) {
+    while (l < r && nums[r] >= pivot) {
       --r;
     }
     if (l < r) nums[l++] = nums[r];
@@ -32,7 +32,12 @@ void qs(std::vector<int>& nums, int left, int right) {
 
 int main() {
   std::vector<int> nums{5, 3, 0, 9, 1, 4, 3, 8};
-  qs(nums, 0, nums.size() - 1);
-  show(nums);
+  std::vector<int> nums2{1,2,3,4,5};
+  std::vector<int> nums3{5,4,3,2,1};
+  auto proxy = [](std::vector<int>& nums) {
+    qs(nums, 0, nums.size() - 1);
+    show(nums);
+  };
+  proxy(nums3);
   return 0;
 }
