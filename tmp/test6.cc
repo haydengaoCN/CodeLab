@@ -3,16 +3,14 @@
 #include <string>
 
 int main() {
-  std::string file_path = "./json_body";
+  std::string file_path = "test.csv";
+  std::ofstream out(file_path, std::ios::trunc | std::ios::binary);
 
-  std::ifstream in(file_path, std::ifstream::in | std::ifstream::binary);
+  out<< "a\t" << "b\t" << "c\t" << "d\n";
+  out<< "1\t" << "2\t" << "3\t" << "4\n";
+  out<< "11\t" << "22\t" << "33\t" << "44\n";
+  out<< "111\t" << "222\t" << "333\t" << "444\n";
 
-  std::string str, line;
-  while (std::getline(in, line)) {
-    std::cout << line << std::endl;
-    str += line;
-  }
-  std::cout << str << std::endl;
 
   return 0;
 }
